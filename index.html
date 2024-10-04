@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم همکاری با ما</title>
+<style>
+    table {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+input{
+width: 210px;
+}
+</style>
+</head>
+<body>
+    <form action="./success.html" method="post" required>
+    <table  style="background-color: #fafafa;" width="100%" cellspacing="10" cellpadding="0">
+        <tr align="right">
+            <td colspan="4" style="font-size: 25px;"> اطلاعات شخصی &#128100 </td>
+        </tr>
+        <tr  align="center" >
+            <td>
+                <input type="text" name="firstname" placeholder="نام خانوادگی را به فارسی وارد کنید">
+            </td>
+            <td  bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >نام خانوادگی</label>
+            </td>
+            <td >
+                <input type="text" name="firstname" placeholder="نام را به فارسی وارد کنید" width="200px">
+            </td>
+            <td  bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;" >
+                <label for="name" >نام</label>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>  <input type="text" name="nationalcode" placeholder="مثال:1234567890">
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >کد ملی</label>
+            </td>
+            <td>
+                <input type="text" name="fathername" placeholder="نام پدر خود را به فارسی وارد کنید">
+            </td>
+            <td  bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >نام پدر</label>
+
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <select name="nezam vazife">
+                    <option value="op1">نظام وظیفه...</option>
+                    <option value="op2">کارت پایان خدمت</option>
+                    <option value="op3">کارت معافیت کفالت</option>
+                    <option value="op4">کارت معافیت پزشکی</option>
+                    <option value="op5">کارت معافیت دائم زمان صلح</option>
+                    <option value="op6">سایر</option>
+                  </select>
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >نظام وظیفه</label>
+            </td>
+            <td>
+                <select name="gender">
+                    <option value="op1">جنسیت...</option>
+                    <option value="op2">مرد</option>
+                    <option value="op3">زن</option>
+                
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >جنسسیت</label>
+
+            </td>
+            
+        </tr>
+        <tr align="center">
+            <td>
+                <select>
+                    <option value="op1">وضعیت تاهل...</option>
+                    <option value="op2">متاهل</option>
+                    <option value="op2">مجرد</option>
+                </select>    
+            </td>
+
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >وضعیت تاهل</label>
+            </td>
+
+        
+            <td>
+                <select>
+                    <option value="op1">وضعیت جسمانی...</option>
+                    <option value="op2">سالم</option>
+                    <option value="op2">محدودیت جسمانی</option>
+                </select> 
+
+
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="name" >وضعیت جسمانی</label>
+
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <table  style="background-color: #fafafa;" width="100%" cellspacing="10" cellpadding="0">
+        <tr align="right">
+            <td colspan="4" style="font-size: 25px;">
+                اطلاعات شناسنامه ای &#128196
+            </td>
+        </tr>
+        <tr align="center">
+             <td>
+           <input type="date" name="birthdate" >
+             </td>
+          <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+            <label for="birthdate" >تاریخ تولد</label>
+          </td>
+          <td>
+            <input type="text" name="numbirth" placeholder="نمونه:123">
+          </td>
+          <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+            <label for="birthdate" >شماره شناسنامه</label>
+          </td>
+       </tr>
+       <tr align="center">
+        <td>
+            <input type="text" name="birthtown" placeholder="شهر محل تولد"> 
+        </td>
+        <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+            <label for="birthtown" >شهر محل تولد</label>
+        </td>
+        <td>
+            <select name="nezam vazife">
+                <option value="op1">استان محل تولد...</option>
+                <option value="op2">آذربایجان شرقی</option>
+                <option value="op3">آذربایجان غربی</option>
+                <option value="op4">اردبیل</option>
+                <option value="op5">اصفهان</option>
+                <option value="op6">البرز</option>
+                <option value="op7">ایلام</option>
+                <option value="op8">بوشهر</option>
+                <option value="op9">تهران</option>
+                <option value="op10">چهارمحال بختیاری</option>
+                <option value="op11">خراسان جنوبی</option>
+                <option value="op12">خراسان رضوی</option>
+                <option value="op13">خراسان شمالی</option>
+              </select>
+        </td>
+        <td  bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+            <label for="birthtown" >استان محل تولد</label>
+        </td>
+       </tr>
+       <tr align="center">
+        <td>
+            <input type="text" name="townbb" placeholder="شهر محل صدور">
+        </td>
+        <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+            <label for="townbb" >شهر محل صدور </label>
+        </td>
+        <td>
+            <select name="townbb">
+                <option value="op1">استان محل صدور...</option>
+                <option value="op2">آذربایجان شرقی</option>
+                <option value="op3">آذربایجان غربی</option>
+                <option value="op4">اردبیل</option>
+                <option value="op5">اصفهان</option>
+                <option value="op6">البرز</option>
+                <option value="op7">ایلام</option>
+                <option value="op8">بوشهر</option>
+                <option value="op9">تهران</option>
+                <option value="op10">چهارمحال بختیاری</option>
+                <option value="op11">خراسان جنوبی</option>
+                <option value="op12">خراسان رضوی</option>
+                <option value="op13">خراسان شمالی</option>
+              </select>
+        </td>
+        <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+            <label for="townbb" >استان محل صدور </label>
+        </td>
+       </tr>
+    </table>
+    <br>
+       <table style="background-color: #fafafa;" width="100%" cellspacing="10" cellpadding="0">
+        <tr align="right">
+            <td colspan="4" style="font-size: 25px;">
+                اطلاعات تماس &#128383
+            </td>
+        </tr>
+
+        <tr align="center">
+            <td> 
+                <input type="text" name="phnum" placeholder="نمونه:09123456789">
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="phnum" >شماره تلفن همراه</label>
+            </td>
+
+            <td>
+                <input type="text" name="phhnum" placeholder="نمونه:02112345678">
+            </td>
+
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="phhnum" >شماره تلفن</label>
+            </td>
+        </tr>
+
+
+        <tr align="center">
+            <td colspan="3">
+                <input type="email" name="mail" placeholder="نمونه:info@example.com" style="width: 100%;">
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="phhnum" >رایانامه</label>
+            </td>
+        </tr>
+        <tr align="center">
+            <td>
+                <input type="text" name="town" placeholder="شهر محل سکونت">
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="town" >شهر محل سکونت</label>
+            </td>
+
+            <td>
+                <select name="sokonat">
+                    <option value="op1">استان محل صدور...</option>
+                    <option value="op2">آذربایجان شرقی</option>
+                    <option value="op3">آذربایجان غربی</option>
+                    <option value="op4">اردبیل</option>
+                    <option value="op5">اصفهان</option>
+                    <option value="op6">البرز</option>
+                    <option value="op7">ایلام</option>
+                    <option value="op8">بوشهر</option>
+                    <option value="op9">تهران</option>
+                    <option value="op10">چهارمحال بختیاری</option>
+                    <option value="op11">خراسان جنوبی</option>
+                    <option value="op12">خراسان رضوی</option>
+                    <option value="op13">خراسان شمالی</option>
+                  </select>
+            </td>
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="townbb" >استان محل سکونت </label> 
+            </td>
+        </tr>
+
+        <tr align="center">
+            <td colspan="3" >
+                <input type="text" name="adress" placeholder="نمونه:خیابان..." style="width: 100%;">
+            </td>
+
+            <td bgcolor="#b0c4de" style="border: 1px solid black; border-radius: 5px;">
+                <label for="townbb" >آدرس محل سکونت</label> 
+            </td>
+        </tr>
+    
+       </table>
+       <br>
+       <table  style="background-color: #fafafa;" width="100%" cellspacing="10" cellpadding="0">
+        <tr align="center">
+            <td colspan="4">
+                <button type="submit" style="width: 200px; background-color: blue; border-radius: 5px; color: white; font-size: 20px;">مرحله بعد</button>
+            </td>
+        </tr>
+
+       </table>
+
+    
+</form>
+</body>
+</html>
